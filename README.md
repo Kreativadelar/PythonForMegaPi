@@ -30,11 +30,8 @@ This is a port of the PythonForMegaPi Python librari to work with Me Auriga
  * python your code
 
 ### Wiring
-* Using MegaPi
- ![image](https://raw.githubusercontent.com/Makeblock-official/PythonForMegaPi/master/images/megapi.jpg)
-* Using Me Shield for Raspberry Pi and RJ25 cable for Me Orion or Me Baseboard.
- ![image](https://raw.githubusercontent.com/Makeblock-official/PythonForMegaPi/master/images/baseboard-pi-shield.jpg)
-* Using USB Cable for Me Orion or Me Baseboard
+
+* Using USB Cable for MeAuriga as shown for the Orion board
  ![image](https://raw.githubusercontent.com/Makeblock-official/PythonForMegaPi/master/images/baseboard-usb-cable.jpg)
 
 ## Python API
