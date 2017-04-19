@@ -9,6 +9,7 @@ This is a port of the PythonForMegaPi Python librari to work with Me Auriga
    * (on Windows): ```[x:\Users\XXX\Documents]\Arduino\libraries\makeblock\src```
    * (on Mac OSX): ```[\Users\XXX\Documents]\Arduino\libraries\makeblock\src```
  * Open Arduino IDE, choose the firmware from <em>File&gt;Examples</em>.
+ ** Use the Firmware_For_Auriga
  ![image](https://raw.githubusercontent.com/Makeblock-official/PythonForMegaPi/master/images/firmware.jpg)
  * Compile and upload firmware according to your board type.
 
