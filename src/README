@@ -3,8 +3,7 @@
  * Compile and upload the Firmware to MegaPi ( https://github.com/Makeblock-Official/FirmwareForMegaPi )
  * On your Raspberry Pi, 
  ```
- sudo pip install megapi
- ```
+ 
  * Insert the initial code for starting MegaPi first.
 ```
  from megapi import *
@@ -15,63 +14,63 @@
 
 ## Python API
  * Start
- 	* **MegaPi**()
+ 	* **MeAuriga**()
  	* **start**()
  	
  * GPIO
- 	* **digitalWrite**( pin, level )
- 	* **pwmWrite**( pin, pwm )
- 	* **digitalRead**( pin, **def** onResult )
- 	* **analogRead**( pin, **def** onResult )
+ 	* *Not tested* **digitalWrite**( pin, level )
+ 	* *Not tested* **pwmWrite**( pin, pwm )
+ 	* *Not tested* **digitalRead**( pin, **def** onResult )
+ 	* *Not tested* **analogRead**( pin, **def** onResult )
  	
  * Motion
 	* DC Motor
-	  * **dcMotorRun**( port, speed )
+	  * *Not tested* **dcMotorRun**( port, speed )
 	* Servo Motor
-	  * **servoRun**( port, angle )
+	  * *Not tested* **servoRun**( port, angle )
 	* Encoder Motor
-	  * **encoderMotorRun**( port, speed )
-	  * **encoderMotorMove**( port, speed, distance, **def** onFinish )
-	  * **encoderMotorMoveTo**( port, speed, position, **def** onFinish )
+	  * *Not tested* **encoderMotorRun**( port, speed )
+	  * *Not tested* **encoderMotorMove**( port, speed, distance, **def** onFinish )
+	  * *Not tested* **encoderMotorMoveTo**( port, speed, position, **def** onFinish )
 	* Stepper Motor
-	  * **stepperMotorSetting**( port, microsteps, acceleration )
-	  * **stepperMotorRun**( port, speed )
-	  * **stepperMotorMove**( port, speed, distance, **def** onFinish )
-	  * **stepperMotorMoveTo**( port, speed, position, **def** onFinish )
+	  * *Not tested* **stepperMotorSetting**( port, microsteps, acceleration )
+	  * *Not tested* **stepperMotorRun**( port, speed )
+	  * *Not tested* **stepperMotorMove**( port, speed, distance, **def** onFinish )
+	  * *Not tested* **stepperMotorMoveTo**( port, speed, position, **def** onFinish )
 	  
  * Sensors
  	* Ultrasonic Sensor
  	  * **ultrasonicSensorRead** ( port, **def** onResult ) 
  	* LineFollow Sensor
- 	  * **lineFollowerRead** ( port, **def** onResult ) 
+ 	  * *Not tested* **lineFollowerRead** ( port, **def** onResult ) 
  	* Light Sensor
- 	  * **lightSensorRead** ( port, **def** onResult ) 
+ 	  * *Not tested* **lightSensorRead** ( port, **def** onResult ) 
  	* Sound Sensor
- 	  * **soundSensorRead** ( port, **def** onResult ) 
+ 	  * *Not tested* **soundSensorRead** ( port, **def** onResult ) 
  	* Temperature Sensor
- 	  * **temperatureRead** ( port, **def** onResult ) 
+ 	  * *Not tested* **temperatureRead** ( port, **def** onResult ) 
  	* PIR Motion Sensor
- 	  * **pirMotionSensorRead** ( port, **def** onResult ) 
+ 	  * *Not tested* **pirMotionSensorRead** ( port, **def** onResult ) 
  	* Touch Sensor
- 	  * **touchSensorRead** ( port, **def** onResult ) 
+ 	  * *Not tested* **touchSensorRead** ( port, **def** onResult ) 
  	* LimitSwitch
- 	  * **limitSwitchRead** ( port, slot, **def** onResult ) 
+ 	  * *Not tested* **limitSwitchRead** ( port, slot, **def** onResult ) 
  	* Humiture Sensor
- 	  * **humitureSensorRead** ( port, type, **def** onResult ) 
+ 	  * *Not tested* **humitureSensorRead** ( port, type, **def** onResult ) 
  	* Gas Sensor
- 	  * **gasSensorRead** ( port, **def** onResult )
+ 	  * *Not tested* **gasSensorRead** ( port, **def** onResult )
  	* Flame Sensor
- 	  * **flameSensorRead** ( port, **def** onResult ) 
+ 	  * *Not tested* **flameSensorRead** ( port, **def** onResult ) 
  	* Button
- 	  * **buttonRead** ( port, **def** onResult ) 
+ 	  * *Not tested* **buttonRead** ( port, **def** onResult ) 
  	* Potentiometer
- 	  * **potentiometerRead** ( port, **def** onResult )
+ 	  * *Not tested* **potentiometerRead** ( port, **def** onResult )
  	* Joystick
- 	  * **joystickRead** ( port, axis, **def** onResult )
+ 	  * *Not tested* **joystickRead** ( port, axis, **def** onResult )
  	* 3-Axis Accelerometer and Gyro Sensor
- 	  * **gyroRead** ( axis, **def** onResult )
+ 	  * *Not tested* **gyroRead** ( axis, **def** onResult )
  	* Compass
- 	  * **compassRead** ( **def** onResult )
+ 	  * *Not tested* **compassRead** ( **def** onResult )
  	
  * Display
  	* RGB Led
@@ -79,16 +78,16 @@
  	  * **rgbLedShow** ( port, slot )
  	  * **rgbLedDisplay** ( port, slot, index, r, g, b )
  	* 7-segment Display
- 	  * **sevenSegmentDisplay** ( port, value )
+ 	  * *Not tested* **sevenSegmentDisplay** ( port, value )
  	* Led Matrix Display
- 	  * **ledMatrixDisplayMessage** ( port, x, y, msg )
- 	  * **ledMatrixDisplayRaw** ( port, buffer )
+ 	  * *Not tested* **ledMatrixDisplayMessage** ( port, x, y, msg )
+ 	  * *Not tested* **ledMatrixDisplayRaw** ( port, buffer )
  	* Serial LCD Display
- 	  * **lcdDisplay** ( string )
+ 	  * *Not tested* **lcdDisplay** ( string )
  	  
  * Others
  	* DSLR Shutter
-	  * **shutterOn** ( port )
-	  * **shutterOff** ( port )
-	  * **focusOn** ( port )
-	  * **focusOff** ( port )
+	  * *Not tested* **shutterOn** ( port )
+	  * *Not tested* **shutterOff** ( port )
+	  * *Not tested* **focusOn** ( port )
+	  * *Not tested* **focusOff** ( port )
