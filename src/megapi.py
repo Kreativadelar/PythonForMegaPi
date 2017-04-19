@@ -243,10 +243,11 @@ class MegaPi():
         self.__writePackage(bytearray([0xff,0x55,11,extId,0x2,deviceId,port,3]+self.short2bytes(speed)+self.long2bytes(position)))
 
     def rgbledDisplay(self,port,slot,index,red,green,blue):
-        self.__writePackage(bytearray([0xff,0x55,0x9,0x0,0x2,18,port,slot,index,int(red),int(green),int(blue)]))
+        self.__writePackage(bytearray([0xff,0x55,0x9,0x0,0x2,8,port,slot,index,int(red),int(green),int(blue)]))
 
+# No use
     def rgbledShow(self,port,slot):
-        self.__writePackage(bytearray([0xff,0x55,0x5,0x0,0x2,19,port,slot]))
+        self.__writePackage(bytearray([0xff,0x55,0x5,0x0,0x2,8,port,slot,0]))
 
     def sevenSegmentDisplay(self,port,value):
         self.__writePackage(bytearray([0xff,0x55,0x8,0x0,0x2,9,port]+self.float2bytes(value)))
