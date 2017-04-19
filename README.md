@@ -1,4 +1,7 @@
-# Python For MegaPi
+# Python For Me Auriga
+
+This is a port of the PythonForMegaPi Python librari to work with Me Auriga
+
 ## How To Use
 ### Prepare for Arduino
  * Download the Arduino library for Makeblock https://github.com/Makeblock-official/Makeblock-Libraries/archive/master.zip
@@ -35,7 +38,7 @@
 
 ## Python API
  * Start
- 	* **MegaPi**()
+ 	* **MeAuriga**()
  	* **start**()
  	
  * GPIO
