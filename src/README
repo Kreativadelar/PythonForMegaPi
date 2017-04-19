@@ -1,13 +1,13 @@
-# Python For MegaPi
+# Python For Me Auriga
 ## How To Use
- * Compile and upload the Firmware to MegaPi ( https://github.com/Makeblock-Official/FirmwareForMegaPi )
+ * Compile and upload the Firmware to MeAuriga
  * On your Raspberry Pi, 
  ```
  
  * Insert the initial code for starting MegaPi first.
 ```
  from megapi import *
- bot = MegaPi()
+ bot = MeAuriga()
  bot.start()
  ```
  * python your code
